@@ -1,4 +1,4 @@
-baseURL: "http://www.kastello.com.br"
+baseURL: "https://www.kastello.com.br"
 languageCode: en-us
 title: "kastello: Controle o seu reino de forma fácil e rápida"
 theme: hugo-fresh

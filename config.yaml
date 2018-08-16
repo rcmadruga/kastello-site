@@ -20,11 +20,11 @@ params:
     image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    - brcondos
+    - casan
+    - celesc
+    - pmsj
+    - pmf
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Produto

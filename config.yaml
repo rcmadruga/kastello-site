@@ -13,7 +13,7 @@ params:
     # Hero subtitle (optional)
     subtitle: Tenha sempre à mão as informações sobre a sua casa e tenha mais tempo para fazer o que te deixa feliz.
     # Button text
-    buttontext: Começe agora
+    buttontext: Cadastre-se agora
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from /images/___)
@@ -75,24 +75,24 @@ params:
     #   - text: App settings
     #     url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Controle o seu lar
+    subtitle: de forma simples e direta
     tiles:
-    - title: App builder
+    - title: Online
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: Nenhum sistema para instalar Tudo online. 24h
       url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      buttonText: Comece já
+    - title: Segurança
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: Seus dados estão seguros e bem guardados conosco
       url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      buttonText: Comece já
+    - title: Integrações
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: Energia, prefeituras, gás e muito mais
       url: /
-      buttonText: Get started
+      buttonText: Comece já
   section2:
     title: You're here because you want the best
     subtitle: And we know it
@@ -134,42 +134,40 @@ params:
     logo: kastello-logo-alt.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://github.com/kastello
       # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
     - link: https://facebook.com/#
       icon: facebook
-    - link: https://twitter.com/lucperkins
+    - link: https://twitter.com/kastello
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
     bulmalogo: false
     product:
-    - text: Discover features
+    - text: Conheça
       link: /
-    - text: Why choose our product?
+    - text: Preços
       link: /
-    - text: Compare features
+    - text: Nosso roadmap
       link: /
-    - text: Our roadmap
-      link: /
-    - text: Request features
+    - text: Sugestões e ideias
       link: /
     docs:
-    - text: Get started
+    - text: Primeiros passos
       link: /
-    - text: User guides
+    - text: Manual de usuário
       link: /
-    - text: Admin guide
+    - text: Integrações
       link: /
-    - text: Developers
+    - text: API
       link: /
     blogroll:
-    - text: Latest news
+    - text: Últimas notícias
       link: /
-    - text: Tech articles
+    - text: Engenharia
       link: /
     - text: Video blog
       link: /

@@ -9,16 +9,16 @@
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form netlify>
+          <form name="contato" method="POST" netlify>
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Seu nome">
+                <input class="input is-medium" type="text" name="name" placeholder="Seu nome">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Seu endereço de email">
+                <input class="input is-medium" type="email" name="email" placeholder="Seu endereço de email">
               </div>
               <div class="column is-12">
-                <textarea class="textarea" rows="10" placeholder="Deixe seu recado..."></textarea>
+                <textarea class="textarea" rows="10" name="message" placeholder="Deixe seu recado..."></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
                 <button type="submit" class="button cta is-large primary-btn raised is-clear">Enviar Mensagem</button>

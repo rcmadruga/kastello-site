@@ -12,10 +12,11 @@ params:
     title: Seu castelo. Controlado.
     # Hero subtitle (optional)
     subtitle: Tenha sempre à mão as informações sobre a sua casa e tenha mais tempo para fazer o que te deixa feliz.
+    subtitle2: Estamos em fase de desenvolvimento e integração com os orgãos públicos. Quer ser avisado quando estivermos prontos? Deixe seu email logo abaixo.
     # Button text
     buttontext: Cadastre-se agora
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#contact"
     # Hero image (from /images/___)
     image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
@@ -28,17 +29,17 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Produto
-    url: /
+    url: /#product
   - title: Integrações
-    url: /
+    url: /#contact
   - title: Preços
-    url: /
+    url: /#contact
   - title: Blog
-    url: /    
-  - title: Entrar
-    url: /
+    url: /#contact
+  - title: Pesquisa
+    url: /pesquisa
   - title: Cadastrar
-    url: /
+    url: /#contact
     button: true
   sidebar: 
     # Logo (from /images/logos/___.svg)

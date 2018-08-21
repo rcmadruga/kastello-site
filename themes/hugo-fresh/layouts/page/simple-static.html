@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lange="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "meta.html" . }}
+    <title>Pesquisa de Mercado</title>
+    {{ partial "css.html" . }}
+  </head>
+  <body>
+    <!-- Preloader -->
+    <!-- <div id="preloader">
+      <div id="status"></div>
+    </div> -->
+
+    {{ block "main" . }}
+    <!-- {{ partial "navbar.html" . }} -->
+
+    <div data-paperform-id="ycbnyhbg"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed"; document.body.appendChild(script); })()</script>
+    
+    <!-- {{ partial "footer.html" . }} -->
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    <!-- {{ partial "sidebar.html" . }} -->
+    {{ end }}
+
+    <!-- {{ partial "javascript.html" . }} -->
+  </body>
+</html>

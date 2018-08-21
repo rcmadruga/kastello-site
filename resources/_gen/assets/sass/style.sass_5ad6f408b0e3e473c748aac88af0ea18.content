@@ -6403,6 +6403,8 @@ Hero styles
     font-weight: 700; }
   .hero-body .subtitle.is-muted {
     color: #999; }
+  .hero-body .subtitle.is-bold {
+    font-weight: 700; }
 
 .hero-foot img.partner-logo {
   height: 70px; }

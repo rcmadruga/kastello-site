@@ -17,6 +17,9 @@ Hero styles
         &.is-muted {
             color: $muted-grey;
         }
+        &.is-bold {
+            font-weight: 700;
+        }
     }
 }
 
